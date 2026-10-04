@@ -28,6 +28,20 @@ The Text-to-Speech Converter is a speech synthesis application that transforms w
 4. Speech audio is generated in MP3 format.
 5. The user can play the generated audio.
 
+## Input
+
+Written text and a selected language.
+
+**Example:**
+
+* Text: "வணக்கம்!"
+* Language: Tamil
+
+## Output
+
+An audio file containing the spoken Tamil word "வணக்கம்!" that the user can play.
+
+
 ## Applications
 
 * Accessibility support
