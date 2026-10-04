@@ -1,16 +1,17 @@
-# Text-to-Speech Converter
+# Text-to-Speech Converter – Text and Speech Analysis
 
-## Project Overview
+## Project Description
 
-The Text-to-Speech Converter is a speech synthesis application that transforms written text into spoken audio. It allows users to enter text and generate speech in multiple languages, making written information accessible through audio output.
+The Text-to-Speech Converter is a Text and Speech Analysis application that converts written text into spoken audio. It uses speech synthesis technology to generate an audio file from user-provided text, making written information accessible through speech.
 
 ## Features
 
-* Converts written text into spoken audio.
-* Supports English, Tamil, and Hindi.
-* Generates playable audio output.
-* Reduces the need for manual reading.
-* Provides a simple and interactive interface.
+1. Text-to-Speech Conversion
+2. Text Input Support
+3. Audio Generation
+4. MP3 File Output
+5. Support for Multiple Languages (as configured)
+6. Audio Playback and Download
 
 ## Technologies Used
 
@@ -18,42 +19,61 @@ The Text-to-Speech Converter is a speech synthesis application that transforms w
 * Google Colab
 * Gradio
 * gTTS (Google Text-to-Speech)
-* Audio Processing
 
-## How It Works
+## Requirements
 
-1. The user enters text in the application.
-2. The user selects the desired language.
-3. The text is processed by the text-to-speech engine.
-4. Speech audio is generated in MP3 format.
-5. The user can play the generated audio.
+* Google account
+* Internet connection
+* Google Colab
+* Text input
 
-## Input
+## How to Run
 
-Written text and a selected language.
+1. Open Google Colab.
+2. Create a new notebook.
+3. Install the required libraries.
+4. Paste the application code into a code cell.
+5. Run the code.
+6. Open the Gradio application link.
+7. Enter the text to be converted.
+8. Select a supported language if the option is available.
+9. Click the conversion button.
+10. Play or download the generated audio.
 
-**Example:**
+## Sample Input
 
-* Text: "வணக்கம்!"
-* Language: Tamil
+"Welcome to the Text and Speech Analysis project."
 
-## Output
+## Expected Output
 
-An audio file containing the spoken Tamil word "வணக்கம்!" that the user can play.
+An audio file containing the spoken version of the input text.
 
+## Project Workflow
+
+Text Input
+↓
+Text Processing
+↓
+Speech Synthesis
+↓
+Audio Generation
+↓
+Playback and Download
 
 ## Applications
 
 * Accessibility support
 * Language learning
-* Educational content narration
-* Audio content generation
-* Voice-based reading assistance
+* Educational tools
+* Audiobook creation
+* Reading assistance
+* Voice-based applications
 
 ## Note
 
-The generated voice and pronunciation depend on the selected language and the text-to-speech service. An internet connection is required for speech generation.
+This application is developed for educational purposes as part of the Text and Speech Analysis (TSA) project. Audio generation requires an internet connection when using the online gTTS service.
 
 ## Application Type
 
 Text and Speech Analysis (TSA)
+
